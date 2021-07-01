@@ -65,7 +65,7 @@ class MyLove extends Machine implements People, Bird {
     }
 }
 let myLove = new MyLove();
-console.log(myLove.caculator(3, 4));;
+console.log(myLove.caculator(3, 4));
 
 /*
 - Một interface chỉ được định nghĩa chứ không được triển khai

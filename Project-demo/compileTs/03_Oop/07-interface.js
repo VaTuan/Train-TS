@@ -48,7 +48,6 @@ class MyLove extends Machine {
 }
 let myLove = new MyLove();
 console.log(myLove.caculator(3, 4));
-;
 /*
 - Một interface chỉ được định nghĩa chứ không được triển khai
  - Nếu một class implements interface thì phải overide lại method của interface

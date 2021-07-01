@@ -10,8 +10,8 @@ interface UserLogin {
     isLogin: boolean
     age?: number   // có nghĩa là trường này không bắt buộc 
     logOut: Function
-
 }
+
 // tạo 1 đối tượng là user01
 let user01: UserLogin;  // --> ở đây ta nói user01 thuộc về kiểu UserLogin
 console.log('user 01:', user01);  // --> undefined, vì chưa gán giá trị cho nó
