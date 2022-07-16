@@ -75,3 +75,10 @@ let emp_01: OneEmp = {
   age: 20,
 };
 console.log(getProperty(emp_01, "name"));
+
+
+/**
+ * TODO : Generic with arrow function
+ */
+
+const firstOrNull = <T>(arr : T[]) : T | null => arr.length === 0 ? null : arr[0] 
